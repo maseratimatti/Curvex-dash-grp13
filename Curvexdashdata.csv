@@ -1,4 +1,4 @@
-﻿Bruger ID;Scannings ID;Tidspunkt;Måling;Type;Værdi
+﻿Bruger ID;Scannings ID;Tidspunkt;Måling;Frekvens;Værdi
 113;1130001;9.00 AM;82;Gamma;Høj
 113;1130002;9.00 AM;41;Beta;Middel
 113;1130003;9.00 AM;34;Alfa;Middel
