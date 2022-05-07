@@ -9,7 +9,7 @@ import plotly.express as px
 
 import pandas as pd
 
-df = pd.read_csv("https://raw.githubusercontent.com/maseratimatti/Curvex-dash-grp13/main/Curvexdashdata.csv", sep=';') #måske brug sep=';'
+df = pd.read_csv("https://raw.githubusercontent.com/maseratimatti/Curvex-dash-grp13/main/Curvexdashdata.csv", sep=';') 
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
