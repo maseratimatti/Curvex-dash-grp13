@@ -20,7 +20,7 @@ auth = dash_auth.BasicAuth(
 )
 
 app.layout = html.Div([
-    html.H1("Målings Rapport for bruger 113", style={"textAlign":"center"}),
+    html.H1("Curvex Rapport For Bruger: 113", style={"textAlign":"center"}),
     html.Hr(),
     html.P("Vælg hjernefrekvens data:"),
     html.Div(html.Div([
@@ -38,7 +38,7 @@ app.layout = html.Div([
               Input(component_id="Frekvens", component_property="value"),
 )
 def make_graphs(Frekvens_chosen):
-    # HISTOGRAM
+
     df_hist = df[df["Frekvens"]==Frekvens_chosen]
     fig_hist = px.histogram(df_hist, x="Værdi")
     fig_hist.update_xaxes(categoryorder="total descending")
