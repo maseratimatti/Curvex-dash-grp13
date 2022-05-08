@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Curvex-dash-grp13'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_49DEF68A4FF7435EB5AAF719C5110862 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_574E41CDB1034690AA73D631E77E16EC }}
